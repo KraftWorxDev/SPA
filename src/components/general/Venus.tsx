@@ -8,10 +8,10 @@ import { IoArrowBackOutline, IoArrowForwardOutline } from 'solid-icons/io';
 
 const Venus:Component = () => {
     return (
-        <div class="w-full py-16">
+        <div class="w-full py-16 scroll-mt-16" id="venu">
             <div class="w-10/12 m-auto">
                 <h1 class="text-5xl text-gray-600  text-center pb-16"> 
-                    Venus
+                    Our Available Venus
                 </h1>
                 <div class="w-full gap-5 relative">
                         <SliderProvider>
@@ -26,7 +26,7 @@ const Venus:Component = () => {
                                         />
                                     </div>
                                     <div class="w-1/4 flex">
-                                        <div class="my-auto px-4 font-thin text-xl">
+                                        <div class="my-auto pr-4 font-thin text-xl">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti repellat sint quas illum cum? Deleniti nesciunt est quis quos quam!
                                         </div>
                                     </div>

@@ -1,15 +1,12 @@
 import type { Component } from 'solid-js';
-import Nav from './components/navigation/Nav';
-import Footer from './components/navigation/Footer';
-import Home from './pages/Home';
+import { Routes, Route } from '@solidjs/router';
+import Main from './Main';
 
 const App: Component = () => {
   return (
-    <>
-      <Nav />
-      <Home />
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" component={Main} />
+    </Routes>
   );
 };
 

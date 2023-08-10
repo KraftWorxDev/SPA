@@ -6,7 +6,7 @@ import { IoArrowDownOutline } from 'solid-icons/io';
 
 const Services:Component = () => {
     return (
-        <div class="w-full py-16 bg-gray-50">
+        <div class="w-full py-16 bg-gray-50 scroll-mt-16" id="services">
             <div class="w-10/12 m-auto">
                 <h1 class="text-5xl text-center text-gray-600 pb-16"> 
                     Services
@@ -16,7 +16,7 @@ const Services:Component = () => {
                         <img 
                             src={Service1Img} 
                             alt="service one image"
-                            class="rounded-md"
+                            class="rounded-t-md"
                         />
                         <h3 class="uppercase text-2xl text-center py-2">
                             desginer menu's
@@ -32,7 +32,7 @@ const Services:Component = () => {
                         <img 
                             src={Service2Img} 
                             alt="Service two image"
-                            class="rounded-md"
+                            class="rounded-t-md"
                         />
                         <h3 class="uppercase text-2xl text-center py-2">
                             bar services
@@ -48,7 +48,7 @@ const Services:Component = () => {
                         <img 
                             src={Service3Img} 
                             alt="Service three image"
-                            class="rounded-md"
+                            class="rounded-t-md"
                         />
                         <h3 class="uppercase text-2xl text-center py-2">
                             staffing
