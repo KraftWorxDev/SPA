@@ -1,20 +1,20 @@
 import { Component } from "solid-js";
-import Service1Img from "../../assets/img/service1.png";
-import Service2Img from "../../assets/img/service2.png";
-import Service3Img from "../../assets/img/service3.png";
+import Venus1Img from "../../assets/img";
+import Venus2Img from "../../assets/img";
+import Venus3Img from "../../assets/img";
 import { IoArrowDownOutline } from 'solid-icons/io';
 
-const Services:Component = () => {
+const Venus:Component = () => {
     return (
-        <div class="w-full py-16 bg-gray-50">
+        <div class="w-full py-16">
             <div class="w-10/12 m-auto">
-                <h1 class="text-5xl text-center text-gray-600 pb-16"> 
-                    Services
+                <h1 class="text-5xl font-semibold text-center pb-16"> 
+                    Venus
                 </h1>
                 <div class="w-full flex flex-wrap sm:flex-nowrap gap-5">
                     <div class="w-1/3 border p-1 rounded-md shadow">
                         <img 
-                            src={Service1Img} 
+                            src={Venus1Img} 
                             alt="service one image"
                             class="rounded-md"
                         />
@@ -30,7 +30,7 @@ const Services:Component = () => {
                     </div>
                     <div class="w-1/3 border p-1 rounded-md shadow">
                         <img 
-                            src={Service2Img} 
+                            src={Venus2Img} 
                             alt="Service two image"
                             class="rounded-md"
                         />
@@ -46,7 +46,7 @@ const Services:Component = () => {
                     </div>
                     <div class="w-1/3 border p-1 rounded-md shadow">
                         <img 
-                            src={Service3Img} 
+                            src={Venus3Img} 
                             alt="Service three image"
                             class="rounded-md"
                         />
@@ -66,4 +66,4 @@ const Services:Component = () => {
     )
 }
 
-export default Services;
+export default Venus;

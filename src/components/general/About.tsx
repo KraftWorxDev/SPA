@@ -13,13 +13,13 @@ const About:Component = () => {
                     />
                 </div>
                 <div class="w-full sm:w-2/3 px-10">
-                    <h1 class="text-5xl font-semibold text-center text-white pb-10">
+                    <h1 class="text-5xl text-center text-white pb-10">
                         About
                     </h1>
                     <p class="text-white text-xl font-thin">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem voluptate necessitatibus eum nulla maxime quas consequuntur aliquid perferendis deserunt. Exercitationem praesentium odit eveniet! Tempore odit veritatis debitis quasi nam suscipit aut quis dignissimos quisquam nisi hic, fugit omnis accusamus non nesciunt quod animi, porro voluptate! Dolore nisi velit eaque iste blanditiis, magni, dolores animi aliquam suscipit sequi voluptate pariatur quia inventore porro saepe? Optio qui eius autem ratione ab magni illo. Illum, debitis architecto, voluptates eligendi, quod aliquid iste amet adipisci explicabo perspiciatis dolore! Nesciunt aspernatur aut similique necessitatibus consequatur soluta, autem, dolores officia quidem nulla labore doloribus. Hic, a.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem voluptate necessitatibus eum nulla maxime quas consequuntur aliquid perferendis deserunt. Exercitationem praesentium odit eveniet! Tempore odit veritatis debitis quasi nam suscipit aut quis dignissimos quisquam nisi hic, fugit omnis accusamus non nesciunt quod animi, porro voluptate! Dolore nisi velit eaque iste blanditiis, magni, dolores animi aliquam suscipit sequi voluptate pariatur quia inventore porro saepe? Optio qui eius autem ratione ab magni illo. Illum, debitis architecto, voluptates eligendi, quod aliquid iste amet adipisci explicabo perspiciatis dolore! Nesciunt aspernatur aut similique necessitatibus consequatur soluta, autem, dolores officia quidem nulla labore
                     </p>
-                    <button class="py-2 px-5 text-white mt-5 rounded-sm bg-black">
+                    <button class="py-4 px-10 text-white mt-5 rounded-sm bg-black">
                         Get intouch
                     </button>
                 </div>

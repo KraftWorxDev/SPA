@@ -19,10 +19,6 @@ const Nav:Component = () => {
             name: 'Venus',
         },
         {
-            id: 5,
-            name: 'Menus',
-        },
-        {
             id: 7,
             name: 'Contact us',
         },
