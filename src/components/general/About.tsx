@@ -3,7 +3,7 @@ import Chef from "../../assets/img/cheff.png"
 
 const About:Component = () => {
     return (
-        <div class="w-full py-16 bg-yellow-600">
+        <div class="w-full py-16 bg-yellow-600 bg-opacity-90">
             <div class="w-10/12 m-auto flex flex-wrap">
                 <div class="w-full sm:w-1/3">
                     <img 
@@ -13,7 +13,7 @@ const About:Component = () => {
                     />
                 </div>
                 <div class="w-full sm:w-2/3 px-10">
-                    <h1 class="text-5xl font-bold text-white pb-10">
+                    <h1 class="text-5xl font-bold text-center text-white pb-10">
                         About
                     </h1>
                     <p class="text-white text-xl">
