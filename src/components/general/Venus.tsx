@@ -10,7 +10,7 @@ const Venus:Component = () => {
     return (
         <div class="w-full py-16 scroll-mt-16" id="venu">
             <div class="w-10/12 m-auto">
-                <h1 class="text-5xl text-gray-600  text-center pb-16"> 
+                <h1 class="text-5xl text-gray-600  text-center pb-10 md:pb-16"> 
                     Our Available Venus
                 </h1>
                 <div class="w-full gap-5 relative">
@@ -18,14 +18,14 @@ const Venus:Component = () => {
                             <div class="w-11/12 flex m-auto">
                             <Slider options={{ loop: true }}>
                                 <div class="w-10/12 m-auto h-[65vh] flex flex-wrap">
-                                    <div class="w-3/4 flex justify-center">
+                                    <div class="w-full md:w-3/4 flex justify-center">
                                         <img 
                                             src={Venus1Img} 
                                             alt="venu one image" 
-                                            class="rounded-md h-[60vh] shadow"
+                                            class="rounded-md md:h-[60vh] shadow"
                                         />
                                     </div>
-                                    <div class="w-1/4 flex">
+                                    <div class="w-full md:w-1/4 flex">
                                         <div class="my-auto pr-4 font-thin text-xl">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti repellat sint quas illum cum? Deleniti nesciunt est quis quos quam!
                                         </div>

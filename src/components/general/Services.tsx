@@ -8,11 +8,11 @@ const Services:Component = () => {
     return (
         <div class="w-full py-16 bg-gray-50 scroll-mt-16" id="services">
             <div class="w-10/12 m-auto">
-                <h1 class="text-5xl text-center text-gray-600 pb-16"> 
+                <h1 class="text-5xl text-center text-gray-600 md:pb-16 pb-10"> 
                     Services
                 </h1>
                 <div class="w-full flex flex-wrap sm:flex-nowrap gap-5">
-                    <div class="w-1/3 border p-1 rounded-md shadow">
+                    <div class="w-10/12 md:w-1/3 border m-auto sm:m-0 p-1 rounded-md shadow">
                         <img 
                             src={Service1Img} 
                             alt="service one image"
@@ -28,7 +28,7 @@ const Services:Component = () => {
                             <IoArrowDownOutline class="text-2xl"/>
                         </div>
                     </div>
-                    <div class="w-1/3 border p-1 rounded-md shadow">
+                    <div class="w-10/12 md:w-1/3 border m-auto sm:m-0 p-1 rounded-md shadow">
                         <img 
                             src={Service2Img} 
                             alt="Service two image"
@@ -44,7 +44,7 @@ const Services:Component = () => {
                             <IoArrowDownOutline class="text-2xl"/>
                         </div>
                     </div>
-                    <div class="w-1/3 border p-1 rounded-md shadow">
+                    <div class="w-10/12 md:w-1/3 border m-auto sm:m-0 p-1 rounded-md shadow">
                         <img 
                             src={Service3Img} 
                             alt="Service three image"
@@ -53,7 +53,7 @@ const Services:Component = () => {
                         <h3 class="uppercase text-2xl text-center py-2">
                             staffing
                         </h3>
-                        <p class="px-10 text-center font-light h-14">
+                        <p class="sm:px-10 text-center font-light h-14">
                             We provide all the staffing  for your event including DJ’s, Hosts, Service Staff.
                         </p>
                         <div class="flex w-full justify-center font-thin text-gray-400 pb-3">

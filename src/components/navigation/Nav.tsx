@@ -42,7 +42,7 @@ const Nav:Component = () => {
                         />
                     </A>
                 </div>
-                <div>
+                <div class="hidden lg:block">
                     <ul class="flex gap-10 text-white text-lg font-thin">
                         <For each={Links}>{
                             (l) => <A href={l.link}><li>{l.name}</li></A> 
@@ -50,7 +50,7 @@ const Nav:Component = () => {
                     </ul>
                 </div>
                 <div>
-                    <button class="bg-orange-500 hover:bg-orange-700 duration-500 ease-in-out px-3 text-lg py-2 rounded-sm text-white">
+                    <button class="bg-orange-500 hidden md:block hover:bg-orange-700 duration-500 ease-in-out px-3 text-lg py-2 rounded-sm text-white">
                         Request a quote
                     </button>
                 </div>
