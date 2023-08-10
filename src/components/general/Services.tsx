@@ -54,7 +54,7 @@ const Services:Component = () => {
                             staffing
                         </h3>
                         <p class="px-10 text-center font-light h-14">
-                            Chew Chucky, decadent, and always freshly backed 
+                            We provide all the staffing  for your event including DJ’s, Hosts, Service Staff.
                         </p>
                         <div class="flex w-full justify-center font-thin text-gray-400 pb-3">
                             <IoArrowDownOutline class="text-2xl"/>
