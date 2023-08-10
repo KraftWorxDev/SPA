@@ -23,10 +23,6 @@ const Nav:Component = () => {
             name: 'Menus',
         },
         {
-            id: 6,
-            name: 'Gallery',
-        },
-        {
             id: 7,
             name: 'Contact us',
         },
@@ -38,7 +34,7 @@ const Nav:Component = () => {
                     Logo
                 </div>
                 <div>
-                    <ul class="flex gap-10 text-white text-lg">
+                    <ul class="flex gap-10 text-white text-lg font-thin">
                         <For each={Links}>{
                             (l) => <li>{l.name}</li> 
                         }</For>
