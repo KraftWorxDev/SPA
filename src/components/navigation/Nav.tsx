@@ -1,4 +1,5 @@
 import { Component, For } from "solid-js";
+import Logo from "../../assets/img/Logo.png"
 
 const Nav:Component = () => {
     const Links = [
@@ -27,7 +28,11 @@ const Nav:Component = () => {
         <nav class="w-full py-2 z-50 fixed bg-gray-400 bg-opacity-50">
             <div class="w-10/12 m-auto flex justify-between items-center">
                 <div>
-                    Logo
+                    <img 
+                        src={Logo}
+                        alt="Company logo"
+                        class="h-14"
+                    />
                 </div>
                 <div>
                     <ul class="flex gap-10 text-white text-lg font-thin">
