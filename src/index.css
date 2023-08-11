@@ -5,3 +5,13 @@
 html {
     scroll-behavior: smooth;
 }
+
+.backgroundMobileImage {
+    background-image: url('./assets/img/backChefMobile.png');
+    background-size: cover;
+}
+
+.backgroundDeskTopImage {
+    background-image: url('./assets/img/background.png');
+    background-size: cover;
+}

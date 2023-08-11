@@ -1,7 +1,7 @@
 import { Component } from "solid-js";
 import "solid-slider/slider.css";
 import { Slider, createSlider, SliderProvider, SliderButton} from "solid-slider";
-import Venus1Img from "../../assets/img/service1.png";
+import Venus1Img from "../../assets/img/Screenshot 2023-08-10 at 15.42.51.png";
 // import Venus2Img from "../../assets/img";
 // import Venus3Img from "../../assets/img";
 import { IoArrowBackOutline, IoArrowForwardOutline } from 'solid-icons/io';
@@ -26,8 +26,13 @@ const Venus:Component = () => {
                                         />
                                     </div>
                                     <div class="w-full lg:w-1/4 flex">
-                                        <div class="my-auto pr-4 text-center lg:text-left font-thin text-xl">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti repellat sint quas illum cum? Deleniti nesciunt est quis quos quam!
+                                        <div class="m-auto">
+                                            <div class="my-auto pr-4 text-center lg:text-left font-thin text-xl">
+                                            Nestled within the breathtaking beauty of Stellenbosch, our enchanting event venue is a true gem. Surrounded by majestic mountains, rolling vineyards, and lush greenery, it provides an idyllic backdrop for your special occasion.
+                                            </div>
+                                            <button class="py-4 px-10 text-lg text-white mt-5 rounded-sm bg-black">
+                                                View Gallery
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
