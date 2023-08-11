@@ -24,7 +24,7 @@ const Nav:Component = () => {
         },
         {
             id: 4,
-            name: 'Venus',
+            name: 'Venues',
             link: '#venu'
         },
         {
@@ -122,7 +122,7 @@ const Nav:Component = () => {
                                 onClick={() => handleMobileLink('venu')}
                                 class="w-full"
                             >
-                                <li class="w-full py-4 border-b">Venus</li>
+                                <li class="w-full py-4 border-b">Venues</li>
                             </button>
                             <button
                                 onClick={() => handleMobileLink('contact')}
