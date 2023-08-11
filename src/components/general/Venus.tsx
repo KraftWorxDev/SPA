@@ -11,7 +11,7 @@ const Venus:Component = () => {
         <div class="w-full py-16 scroll-mt-16" id="venu">
             <div class="w-full lg:w-10/12 m-auto">
                 <h1 class="text-5xl text-gray-600  text-center pb-10 md:pb-16"> 
-                    Our Available Venus
+                    Venues
                 </h1>
                 <div class="w-full gap-5 relative">
                         <SliderProvider>
