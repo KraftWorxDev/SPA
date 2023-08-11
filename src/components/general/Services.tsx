@@ -41,7 +41,7 @@ const Services:Component = () => {
                                 bar services
                             </h3>
                             <p class="px-10 text-center font-light">
-                                We do open bars and hoasted bars
+                                We do open bars and hosted bars
                             </p>
                         </div>
                         <div class="flex w-full justify-center font-thin text-gray-400 pb-3">
