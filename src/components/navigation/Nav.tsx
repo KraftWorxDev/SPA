@@ -99,7 +99,7 @@ const Nav:Component = () => {
                 </button>
                 <div class={`fixed ${toggleMobileMenu() ? 'w-[300px]' : 'w-0'} h-screen flex overflow-hidden duration-300 ease-in-out z-50 top-0 right-0 bg-yellow-600 2xl:hidden`}>
                     <div class="w-10/12 relative mx-auto text-white">
-                        <ul class="">
+                        <ul class="text-lg">
                             <button
                                 onClick={() => handleMobileLink('home')}
                                 class="w-full"

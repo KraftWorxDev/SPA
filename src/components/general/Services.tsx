@@ -19,7 +19,7 @@ const Services:Component = () => {
                             class="rounded-t-md"
                         />
                         <h3 class="uppercase text-2xl text-center py-2">
-                            desginer menu's
+                            designer menu's
                         </h3>
                         <p class="px-10 text-center font-light h-14">
                             Choose from our pre-set menus or design your own
